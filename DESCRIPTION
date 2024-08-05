@@ -1,0 +1,31 @@
+Package: noclocksrtools
+Title: Internal Development R Tools for No Clocks, LLC
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Jimmy", "Briggs", , "jimmy.briggs@noclocks.dev", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-7489-8787")),
+    person("Patrick", "Howard", , "patrick.howard@noclocks.dev", role = c("aut", "rev"),
+           comment = c(ORCID = "0000-0000-0000-0000")),
+    person("No Clocks, LLC", , , "dev@noclocks.dev", role = c("fnd", "cph"))
+  )
+Description: A collection of internal development tools for No Clocks,
+    LLC.
+License: MIT + file LICENSE
+Imports: 
+    covr,
+    covrpage,
+    fs,
+    gitdown,
+    glue,
+    httr2,
+    jsonlite,
+    markdown,
+    pkgdown,
+    purrr,
+    rlang,
+    testdown,
+    utils
+Encoding: UTF-8
+Language: en-US
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2.9000
